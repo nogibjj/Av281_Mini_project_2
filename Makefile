@@ -2,12 +2,12 @@ install:
 	pip install -r requirements.txt
 
 test:
-	python -m unittest discover tests/
+	python -m pytest
 
 lint:
-	pylint your_module/
+	pylint 
 
 format:
-	black your_module/
+	black 
 
 .PHONY: install test lint format

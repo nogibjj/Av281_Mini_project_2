@@ -6,11 +6,11 @@ contains:
 
 * `Pytest`
 
-* `pandas`
-
 * `Pylint`
 
 * `Dockerfile`
+
+* '.gitignore'
 
 * A base set of libraries for devops and web
 

@@ -1,3 +1,3 @@
-def listmax(a, b):
+def add(a, b):
     combo = a + b
     return combo

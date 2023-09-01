@@ -25,14 +25,14 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover tests/
+        python -m pytest
 
     - name: Lint code
       run: |
         pip install pylint
-        pylint your_module/
+        pylint 
 
     - name: Format code
       run: |
         pip install black
-        black your_module/
+        black 

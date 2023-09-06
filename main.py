@@ -1,3 +1,5 @@
-def add(a, b):
-    combo = a + b
-    return combo
+import pandas as pd
+
+def PDdescribe(data):
+	df = pd.DataFrame(data)
+	return df.describe()

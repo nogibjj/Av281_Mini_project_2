@@ -15,7 +15,7 @@ def test_desc():
         
         # Define your expected output
         expected_output = pd.DataFrame({
-            'A': [5.0, 3.0, 1.581139, 1.0, 5.0],
-            'B': [50.0, 30.0, 15.811388, 10.0, 50.0]
+            'A': [5.0, 3.0, 1.581139, 1.0, 2.0, 3.0, 4.0, 5.0],
+            'B': [50.0, 30.0, 15.811388, 10.0, 20.0, 30.0, 40.0, 50.0]
         }, index=['count', 'mean', 'std', 'min', '25%', '50%', '75%', 'max'])
-        assert result = expected_output
+        assert result == expected_output

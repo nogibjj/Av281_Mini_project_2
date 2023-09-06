@@ -4,6 +4,7 @@ Test goes here
 """
 
 from main import PDdescribe
+import pandas as pd
 
 
 def test_desc():

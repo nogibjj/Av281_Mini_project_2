@@ -14,4 +14,6 @@ contains:
 
 * A base set of libraries for devops and web
 
-* `githubactions` 
+* `githubactions`
+
+* A main py file with a pandas descriptive statistics function and a test file

@@ -9,7 +9,3 @@ def PDdescribe(filename):
 results = PDdescribe('nba.csv')
 
 print(results)
-
-nba = pd.read_csv('nba.csv')
-nba.plot(kind = 'scatter', x = 'Height', y = 'Weight')
-plt.show()

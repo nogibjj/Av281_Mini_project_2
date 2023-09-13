@@ -16,5 +16,8 @@ def test_desc():
 
 #run data visualization code
 nba = pd.read_csv('nba.csv')
-nba.plot(kind = 'scatter', x = 'Height', y = 'Weight')
+plt.scatter(nba[Height], nba[Weight])
+plt.title('NBA player Weight vs Height')
+plt.xlabel('Height')
+plt.ylabel('Weight')
 plt.show()

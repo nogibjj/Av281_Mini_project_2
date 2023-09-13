@@ -1,5 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 
 def PDdescribe(filename):
     '''function which returns descriptive stats about input data'''

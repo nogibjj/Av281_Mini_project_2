@@ -6,7 +6,7 @@ def PDdescribe(filename):
     df = pd.read_csv(filename)
     return df.describe()
 
-results = PDescribe('nba.csv')
+results = PDdescribe('nba.csv')
 
 print(results)
 

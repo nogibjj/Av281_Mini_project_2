@@ -17,3 +17,8 @@ contains:
 * `githubactions`
 
 * A main py file with a pandas descriptive statistics function and a test file
+
+to run, first use the command line: curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+then: python3 get-pip.py --user
+

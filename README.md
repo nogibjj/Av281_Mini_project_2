@@ -1,4 +1,4 @@
-# Simple Python Template for IDS706 fall 2023
+# Mini Project 2 for IDS706 fall 2023
 Python template to be used for GitHub codespaces
 contains:
 
